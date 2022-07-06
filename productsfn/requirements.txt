@@ -1,0 +1,5 @@
+fdk>=0.1.46
+requests
+bs4
+oci
+

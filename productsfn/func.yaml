@@ -1,0 +1,10 @@
+schema_version: 20180708
+name: productsfn
+version: 0.0.1
+runtime: python
+build_image: fnproject/python:3.9-dev
+run_image: fnproject/python:3.9
+entrypoint: /python/bin/fdk /function/productsfn.py handler
+memory: 2048
+timeout: 120
+
